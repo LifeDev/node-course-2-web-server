@@ -34,7 +34,7 @@ hbs.registerHelper('screamIt', (text) => {
 
 app.get('/', (req, res) => {
   res.render('home.hbs', {
-    pageTitle: 'Home Page',
+    pageTitle: 'Mansur Idi Nahui',
     welcomeMessage: 'Welcome to the page'
   });
 });
