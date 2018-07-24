@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <link rel="stylesheet" type="text/css" href="../css/mystyle.css">  
-  <head>
-    <meta charset="utf-8">
-    <title>Some Website</title>
-  </head>
-  <body>
-    {{> header}}
-    <p>{{pageMessage}}</p>
-  </body>
+<style media="screen">
+  h1 {
+    color: blue;
+  }
 
-  {{> footer}}
+  body {
+    background-color: blue;
+  }
+</style>
+
+<head>
+  <meta charset="utf-8">
+  <title>Some Website</title>
+</head>
+
+<body>
+  {{> header}}
+  <p>{{pageMessage}}</p>
+</body>
+
+{{> footer}}
+
 </html>
